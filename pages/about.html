@@ -5,15 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Полюс</title>
     <link rel="stylesheet" href="../main.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color:rgb(236, 237, 245);
+        }
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+        .block {
+            margin-top: 30px;
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            color: rgb(255, 255, 255);
+            font-size: 7vh;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-size: cover;
+        }
+        #bl1 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_1.jpg');
+        }
+        #bl2 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_2.jpg');
+        }
+        #bl3 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_3.jpg');
+        }
+    </style>
 </head>
 <body>
     <header>
         <img src="../img/logo.png" alt="Логотип" class="header-logo" onclick="window.location.href='menu.html'">
     </header>
     <main>
-
+        <div class="block" id="bl1"><span>Крупнейшая в России золотодобывающая компания</span></div>
+    <div class="container">
+        <div class="block" id="bl2"><span>Номер 4 в мире</span></div>
+        <div class="block" id="bl3"><span>3 миллиона унций за 2024 год</span></div>
+    </div>
     </main>
     <footer>
         &copy;Саморуков Никита, ФБИ-34, 2 курс, 2025
