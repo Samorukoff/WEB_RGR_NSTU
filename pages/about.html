@@ -11,6 +11,20 @@
         body {
             background-color:rgb(236, 237, 245);
         }
+        h1 {
+            color: rgb(32, 32, 32);
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 60px;
+            margin: 40px auto;
+        }
+        .info {
+            margin: 100px auto;
+            font-size: 20px;
+            width: 1000px;
+
+        }
         .container {
             display: flex;
             gap: 30px;
@@ -30,6 +44,15 @@
             text-transform: uppercase;
             background-size: cover;
         }
+        .text {
+            margin-top: 30px;
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            font-size: 40px;
+        }
         #bl1 {
             background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
                                                         url('../img/block_1.jpg');
@@ -41,6 +64,29 @@
         #bl3 {
             background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
                                                         url('../img/block_3.jpg');
+                                                        
+        }
+        #bl4 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_4.jpg');
+        }
+        #bl5 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_5.jpg');
+                                                        
+        }
+        #bl6 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_6.webp');
+                                                        
+        }
+        .highlight {
+            color: rgb(247, 189, 27);
+        }
+        .block:hover {
+            transform: scale(1.015);
+            filter: brightness(1.1);
+            transition: transform 0.3s ease, filter 0.3s ease;
         }
     </style>
 </head>
@@ -49,10 +95,44 @@
         <img src="../img/logo.png" alt="Логотип" class="header-logo" onclick="window.location.href='menu.html'">
     </header>
     <main>
-        <div class="block" id="bl1"><span>Крупнейшая в России золотодобывающая компания</span></div>
+        <div class="block" id="bl1"><span>Крупнейшая в России <span class="highlight">золотодобывающая</span> компания</span></div>
     <div class="container">
-        <div class="block" id="bl2"><span>Номер 4 в мире</span></div>
-        <div class="block" id="bl3"><span>3 миллиона унций за 2024 год</span></div>
+        <div class="block" id="bl2"><span>Номер 4 <span class="highlight">в мире</span></span></div>
+        <div class="block" id="bl3"><span><span class="highlight">3 миллиона</span> унций за 2024 год</span></div>
+    </div>
+    <div class="info">
+        <h1>Почему именно <span class="highlight">мы?</span></h1>
+            <p>ПОЛЮС — крупнейшая золотодобывающая компания России и одна из ведущих в мире. Мы предлагаем стабильность, инновации и уверенность в завтрашнем дне.</p>
+            <p><strong>№1 в России по добыче золота</strong><br>
+            Мы — №1 в России по объёму добычи золота и входим в топ-5 крупнейших золотодобытчиков мира. Наши месторождения охватывают ключевые регионы страны, а запасы — одни из самых значительных в отрасли.</p>
+
+            <p><strong>Входим в ТОП-5 мировых лидеров</strong><br>
+            Мы инвестируем в передовые технологии, автоматизацию и экологически ответственные решения. Устойчивое развитие — не модное слово, а наша стратегия.</p>
+
+            <p><strong>Современные технологии и устойчивость</strong><br>
+            ПОЛЮС — публичная компания с международным уровнем корпоративного управления. Мы открыты перед инвесторами и заинтересованными сторонами.</p>
+
+            <p><strong>Финансовая прозрачность и открытость</strong><br>
+            В нашей команде — тысячи профессионалов, создающих ценность на каждом этапе: от геологоразведки до переработки и логистики.</p>
+
+            <p><strong>Тысячи профессионалов в команде</strong><br>
+            Мы уверенно смотрим вперёд, развивая инфраструктуру, расширяя горизонты и создавая условия для роста даже в нестабильных экономических условиях.</p>
+    </div>
+    <h1>Наша<span class="highlight"> история</span></h1>
+    <div class="container">
+        <div class="block" id="bl4"><span><span class="highlight">2006</span> Основание компании ПОЛЮС</span></div>
+        <div class="text"> Выделение из состава ГМК «Норильский никель» и
+            запуск самостоятельной стратегии по развитию золотодобычи.</div>
+    </div>
+    <div class="container">
+        <div class="block" id="bl5"><span><span class="highlight">2012</span> Запуск Наталкинского месторождения</span></div>
+        <div class="text"> Одно из крупнейших в России золоторудных месторождений.
+            Переход к высоким стандартам устойчивого развития и цифровизации производств.</div>
+    </div>
+    <div class="container">
+        <div class="block" id="bl6"><span><span class="highlight">2020</span> Вхождение<br>ПОЛЮС в ТОП-5 компаний</span></div>
+        <div class="text"> Вхождение ПОЛЮС в ТОП-5 крупнейших золотодобывающих компаний мира.
+            Расширение добычи, рост капитализации и глобального присутствия.</div>
     </div>
     </main>
     <footer>
