@@ -19,6 +19,18 @@
             font-size: 60px;
             margin: 40px auto;
         }
+        button {
+            height: 60px;
+            width: 60px;
+            border-radius: 50px;
+            position: fixed;
+            bottom: 35px;
+            right: 10px;
+            font-size: 40px;
+            text-align: center;
+            line-height: 40px;
+            z-index: 1000;
+        }
         .info {
             margin: 100px auto;
             font-size: 20px;
@@ -92,9 +104,13 @@
 </head>
 <body>
     <header>
+        <p><a name="start"></a></p>
         <img src="../img/logo.png" alt="Логотип" class="header-logo" onclick="window.location.href='menu.html'">
     </header>
     <main>
+        <div>
+            <button onclick="window.location.href='#start'">↑</button>
+        </div>
         <div class="block" id="bl1"><span>Крупнейшая в России <span class="highlight">золотодобывающая</span> компания</span></div>
     <div class="container">
         <div class="block" id="bl2"><span>Номер 4 <span class="highlight">в мире</span></span></div>
