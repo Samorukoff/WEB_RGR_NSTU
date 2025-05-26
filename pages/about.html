@@ -8,9 +8,6 @@
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            background-color:rgb(236, 237, 245);
-        }
         h1 {
             color: rgb(32, 32, 32);
             text-align: center;
@@ -18,18 +15,6 @@
             text-transform: uppercase;
             font-size: 60px;
             margin: 40px auto;
-        }
-        button {
-            height: 60px;
-            width: 60px;
-            border-radius: 50px;
-            position: fixed;
-            bottom: 35px;
-            right: 10px;
-            font-size: 40px;
-            text-align: center;
-            line-height: 40px;
-            z-index: 1000;
         }
         .info {
             margin: 100px auto;
@@ -104,18 +89,20 @@
 </head>
 <body>
     <header>
-        <p><a name="start"></a></p>
         <img src="../img/logo.png" alt="Логотип" class="header-logo" onclick="window.location.href='menu.html'">
     </header>
     <main>
-        <div>
-            <button onclick="window.location.href='#start'">↑</button>
-        </div>
+        <p><a name="start"></a></p>
+
+        <button class="to_start_btn" onclick="window.location.href='#start'">↑</button>
+
         <div class="block" id="bl1"><span>Крупнейшая в России <span class="highlight">золотодобывающая</span> компания</span></div>
+    
     <div class="container">
         <div class="block" id="bl2"><span>Номер 4 <span class="highlight">в мире</span></span></div>
         <div class="block" id="bl3"><span><span class="highlight">3 миллиона</span> унций за 2024 год</span></div>
     </div>
+
     <div class="info">
         <h1>Почему именно <span class="highlight">мы?</span></h1>
             <p>ПОЛЮС — крупнейшая золотодобывающая компания России и одна из ведущих в мире. Мы предлагаем стабильность, инновации и уверенность в завтрашнем дне.</p>
@@ -134,6 +121,7 @@
             <p><strong>Тысячи профессионалов в команде</strong><br>
             Мы уверенно смотрим вперёд, развивая инфраструктуру, расширяя горизонты и создавая условия для роста даже в нестабильных экономических условиях.</p>
     </div>
+    
     <h1>Наша<span class="highlight"> история</span></h1>
     <div class="container">
         <div class="block" id="bl4"><span><span class="highlight">2006</span> Основание компании ПОЛЮС</span></div>

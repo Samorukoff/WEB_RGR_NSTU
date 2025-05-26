@@ -2,6 +2,7 @@ body {
     color: rgb(32, 32, 32);
     font-family: 'Montserrat';
     margin: 0px;
+    background-color:rgb(236, 237, 245);
 }
 main {
     margin: 10px 20px 56px;
@@ -43,6 +44,19 @@ button {
     text-decoration: none;
     cursor: pointer;
     transition: 0.2s;
+
+}
+.to_start_btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 35px;
+    right: 10px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1000;
 }
 button:hover{
     background-color: rgb(247, 189, 27);
