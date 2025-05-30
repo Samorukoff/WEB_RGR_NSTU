@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полюс</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            color: rgb(32, 32, 32);
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 60px;
+            margin: 40px auto;
+        }
+        .info {
+            margin: 100px auto;
+            font-size: 20px;
+            width: 1000px;
+
+        }
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+        .block {
+            margin-top: 30px;
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            color: rgb(255, 255, 255);
+            font-size: 7vh;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-size: cover;
+        }
+        .text {
+            margin-top: 30px;
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        #bl1 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_1.jpg');
+        }
+        #bl2 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_2.jpg');
+        }
+        #bl3 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_3.jpg');
+                                                        
+        }
+        #bl4 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_4.jpg');
+        }
+        #bl5 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_5.jpg');
+                                                        
+        }
+        #bl6 {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                                                        url('../img/block_6.jpg');
+                                                        
+        }
+        .highlight {
+            color: rgb(247, 189, 27);
+        }
+        .block:hover {
+            transform: scale(1.015);
+            filter: brightness(1.1);
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Логотип" class="header-logo" onclick="window.location.href='menu.html'">
+    </header>
+    <main>
+    
+    </main>
+    <div class="bottom-menu">
+        <a href="menu.html" title="Главная">Главная</a>
+        <a href="about.html" title="О нас">О нас</a>
+        <a href="news.html" title="Новости">Новости</a>
+        <a href="contact_info.html" title="Контакты">Контакты</a>
+        <a href="video.html" title="Видео">Видео</a>
+    </div>
+    <footer>
+        &copy;Саморуков Никита, ФБИ-34, 2 курс, 2025
+    </footer>
+</body>
+</html>
