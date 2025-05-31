@@ -21,22 +21,14 @@
             font-size: 40px;
             margin: 40px 20%;
         }
-        div.menu {
-            border-radius: 10px;
-            box-shadow: 1px, 1px, 1px, rgb(32,32,32);
-            width: 400px;
-            margin: 0 auto;
-            transition: 1s 1s;
+        iframe {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px auto;
+            margin-bottom: 80px;
         }
-        button {
-            margin: 10px auto;
-            height: 60px;
-            width: 300px;
-        }
-        button:hover {
-            transform: scale(1.15);
-            transition: transform 0.6s ease;
-        }
+
     </style>
 </head>
 <body>
@@ -44,16 +36,22 @@
         <img src="../img/logo.png" alt="Логотип" class="header-logo" onclick="window.location.href='menu.html'">
     </header>
     <main>
-        <h1>Выберите страницу</h1>
-
-        <div class="menu"> 
-                <button onclick="window.location.href='about.html'">О компании</button>
-                <button onclick="window.location.href='news.html'">Новости</button>
-                <button onclick="window.location.href='exchange.html'">Курс валют</button>
-                <button onclick="window.location.href='contact_info.html'">Контактные данные</button>
-                <button onclick="window.location.href='video.html'">Видео</button>
-        </div>
+        <h1>УЗНАЙТЕ БОЛЬШЕ О НАС</h1>
+        <iframe 
+            width="900" 
+            height="500" 
+            src="https://rutube.ru/play/embed/6c943136e2918d1b1a2bfe85a8b798f3" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
     </main>
+        <div class="bottom-menu">
+            <a href="menu.html" title="Главная">Главная</a>
+            <a href="about.html" title="О нас">О нас</a>
+            <a href="news.html" title="Новости">Новости</a>
+            <a href="exchange.html" title="Курс">Курс</a>
+            <a href="contact_info.html" title="Контакты">Контакты</a>
+        </div>
     <footer>    
         &copy;Саморуков Никита, ФБИ-34, 2 курс, 2025
     </footer>
