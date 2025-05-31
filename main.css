@@ -32,7 +32,6 @@ footer {
 }
 button {
     display: block;
-    margin: 10px auto;
     border: none;
     border-radius: 25px;
     background-color: rgb(255, 203, 8);
@@ -51,6 +50,7 @@ button {
     width: 60px;
     border-radius: 50px;
     position: fixed;
+    margin: 10px auto;
     bottom: 35px;
     right: 10px;
     font-size: 40px;
