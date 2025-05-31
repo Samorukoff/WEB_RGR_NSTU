@@ -84,9 +84,7 @@
 
             const vnd = parseFloat(amount) / vndRate;
             document.getElementById("result").textContent = `${vnd.toFixed(0)} ₫`;
-            }
-
-        getVNDRate();        
+            }      
 
         // Создание диаграммы
         window.onload = function () {
@@ -133,7 +131,6 @@
 
         <h2>Динамика курса за май</h2>
         <canvas id="chart"></canvas>
-        <p id="info"></p>
 
     </main>
     <div class="bottom-menu">
